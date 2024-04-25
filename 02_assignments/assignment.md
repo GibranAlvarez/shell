@@ -11,21 +11,35 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [ X] Create a branch called `assignment`.
+- [ X] Ensure that the repository is public.
+- [ X] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [ X] Verify that the link is accessible in a private browser window.
 
 # Assignment: The Secret Password
 
 You are stuck in a virtual room and can only leave if you figure out the password! Fortunately, somebody left behind 6 clues for you to find the secret password, but the messaging is not that clear. It is your job to discover what the secret password is!
 
 1. The very odd and inedible ingredient in a cake recipe
+   Paper Rings
 2. The season number that contains only 18 episodes (Hint: How do you list them?)
+   ls season_*
+   Season 10
 3. Fifth word of Season 6, Episode 21 of Friends
+   cat season_6/ep_21.txt
+   The One Where Ross Meets Elizabeth's Dad
+   Meets
 4. Fifth word of the fifth fictional Space Wars series
+   cat ~/github/02_assignments/clues/movies/space_wars/fifth_movie.txt
+   Space Wars: Future Legends and Past Legacies
+   Legacies
 5. Second word of this song that's exactly 4 minutes long in this "colour" album
+   cat red/*
+   Title: The Lucky One
+   Duration: 4:00
+   Lucky
 6. The fourth word to the fourth Hunger Games movie
+    Hanger Games & the Stars of Darkness
 
 ## Instructions
 1. Fork this Shell learning module repository following these [instructions](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#setting-up)
@@ -34,7 +48,7 @@ You are stuck in a virtual room and can only leave if you figure out the passwor
 
 **What is the secret password?**
 ```
-Your answer here...
+Your answer here...Paper Rings, 10, Meets, Legacies (or "and" if you count "Star Wars"), Lucky, Stars (or "the" if you count "&") 
 
 
 
